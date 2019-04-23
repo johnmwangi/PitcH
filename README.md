@@ -1,4 +1,4 @@
-<!-- # Pitch
+ # Pitch
 
 ## Built By [John Mwangi](link)
 
@@ -12,7 +12,7 @@ These are the behaviours/features that the application implements for use by a u
 As a user I would like to:
 
 * submit a pitch in any category.
-* See the pitches other people have posted.
+* see the pitches other people have posted.
 * view the pitches on the page.
 * Ability to comment and give feedback.
 
@@ -68,4 +68,4 @@ As a user I would like to:
 
 ## License
 
-Copyright (c) 2019 John Mwangi. --> 
+Copyright (c) 2019 John Mwangi.
