@@ -3,42 +3,74 @@
 <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}"> {% endblock %}
 {% block content %}
 
+<script>
+  $(document).ready(function() {
+    $("button").addClass("animated bounce");
+  });
+</script>
+
+
+
+
 <body>
+
+  <script>
+    $(document).ready(function() {
+      $("button").addClass("animated bounce");
+    });
+  </script>
+
+<div class = "container-fluid">
   <br>
-  <div class="d-flex justify-content-center">
-    <div class="card-groups">
-      <div class="card border-info mb-3" style="max-width: 35rem;">
+<div class="row">
+
+
+      <div class = "col-md-4">
+      <div class = "card-column">
+      <div class="card border-success mb-3" style="max-width: 35rem;">
         <div class="card-header">Life</div>
-        <div class="card-body text-info">
+        <div class="card-body text-success">
           <h5 class="card-title">Pitches about life</h5>
-          <p class="card-text">Want to change peoples mindsets, then give a pitch on best life practices!!</p>
-          <button type="button" class="btn btn-outline-primary"><a href="../pitch/">Add Pitch</a></button>
-          <button type="button" class="btn btn-outline-primary"><a href="/categories/life">Read Pitches</a></button>
+          <p class="card-text">Intending on changing people's minds, give a pitch on best life practices!</p>
+          <button type="button" class="btn btn-outline-success"><a href="../pitch/">Add Pitch</a></button>
+          <button type="button" class="btn btn-outline-success"><a href="/categories/life">Read Pitches</a></button>
         </div>
       </div>
+    </div>
+    </div>
 
-      <div class="card border-info mb-3" style="max-width: 35rem;">
+      <div class = "col-4">
+          <div class = "card-column">
+        <div class = "card-column">
+      <div class="card border-success mb-3" style="max-width: 35rem;">
         <div class="card-header">Coding</div>
-        <div class="card-body text-info">
-          <h5 class="card-title">Pitches about coding</h5>
-          <p class="card-text">Want to change peoples mindsets, then give a pitch on best coding practices!!</p>
-          <button type="button" class="btn btn-outline-primary"><a href="../pitch/">Add Pitch</a></button>
-          <button type="button" class="btn btn-outline-primary"><a href="/categories/coding">Read Pitches</a></button>
+        <div class="card-body text-success">
+          <h5 class="card-title">Pitches on coding</h5>
+          <p class="card-text">Intending on changing people's minds, give a pitch on the good coding habits!</p>
+          <button type="button" class="btn btn-outline-success"><a href="../pitch/">Add Pitch</a></button>
+          <button type="button" class="btn btn-outline-success"><a href="/categories/coding">Read Pitches</a></button>
         </div>
       </div>
+     </div>
+     </div>
+     </div>
 
-      <div class="card border-info mb-3" style="max-width: 35rem;">
-        <div class="card-header">Funny</div>
-        <div class="card-body text-info">
-          <h5 class="card-title">Funny Pitches</h5>
-          <p class="card-text">Want to change peoples mindsets, then give a pitch on how best to make things fun!!</p>
-          <button type="button" class="btn btn-outline-primary"><a href="../pitch/">Add Pitch</a></button>
-          <button type="button" class="btn btn-outline-primary"><a href="/categories/funny">Read Pitches</a></button>
+    <div class = "col-md-4">
+     <div class = "card-column">
+      <div class="card border-success mb-3" style="max-width: 35rem;">
+        <div class="card-header">Sports</div>
+        <div class="card-body text-success">
+          <h5 class="card-title">Sports Pitches</h5>
+          <p class="card-text">Want to change peoples mindsets, then give a pitch on how best to make things sportsfun!!</p>
+          <button type="button" class="btn btn-outline-success"><a href="../pitch/">Add Pitch</a></button>
+          <button type="button" class="btn btn-outline-success"><a href="/categories/sports">Read Pitches</a></button>
         </div>
       </div>
-
+     </div>
     </div>
   </div>
+
+
 
   {% endblock%}
 </body>

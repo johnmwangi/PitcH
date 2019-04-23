@@ -38,7 +38,7 @@ As a user I would like to:
 ### Cloning
 * In your terminal:
 
-        $ git clone https://github.com/emdeechege/peech/
+        $ git clone (link)
         $ cd peech
 
 ## Running the Application
@@ -68,4 +68,4 @@ As a user I would like to:
 
 ## License
 
-Copyright (c) 2019 John Mwangi. -->
+Copyright (c) 2019 John Mwangi. --> 
