@@ -50,17 +50,18 @@ As a user I would like to:
 
 * Installing Flask and other Modules
 
-         `Requirements.txt`
+        *  Requirements.txt
 
 * To run the application, in your terminal:
 
-         `chmod +x start.sh`
-         `./start.sh`
+
+        * `chmod +x start.sh`
+        * `./start.sh`
 
 ## Testing the Application
 * To run the tests for the class files:
 
-         `python3.6 manage.py test`
+        * `python3.6 manage.py test`
 
 ## Technologies Used
 * `Python3.6`
