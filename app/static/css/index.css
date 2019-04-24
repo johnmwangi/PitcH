@@ -4,7 +4,7 @@
 .jumbotron{
   background-image: url('https://wallpaperplay.com/walls/full/1/0/a/324693.jpg');
   padding:5px;
-  margin-bottom: -30; 
+  margin-bottom: -30;
 }
 .john{
   font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -12,4 +12,8 @@
   font-style: italic;
   color:green;
 
+}
+.mwas{
+  background-color: green;
+  color:black;
 }
