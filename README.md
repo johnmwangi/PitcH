@@ -1,6 +1,6 @@
  # Pitch
 
-## Built By [John Mwangi](link)
+## Built By [John Mwangi](https://pittchy.herokuapp.com/authenticate/login)
 
 ## Description
 Pitch is an application that allows users to use that one minute. The users will submit their one minute pitches and other users will vote on them and leave comments to give their feedback on them.
