@@ -16,7 +16,6 @@ class Config:
     MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
     SUBJECT_PREFIX = 'Pitch'
 
-    SENDER_EMAIL = ''
 
 
 

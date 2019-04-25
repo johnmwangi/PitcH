@@ -76,5 +76,3 @@ class Comments(db.Model):
 
     def __repr__(self):
         return f"Comments('{self.comment}', '{self.date_posted}')"
-
-    @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic);
