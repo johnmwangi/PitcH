@@ -38,7 +38,7 @@ As a user I would like to:
 ### Cloning
 * In your terminal:
 
-        * git clone (link)
+        * git clone (https://pittchy.herokuapp.com/authenticate/login)
         * cd peech
 
 ## Running the Application
