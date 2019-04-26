@@ -1,6 +1,9 @@
  # Pitch
 
-## Built By [John Mwangi](https://pittchy.herokuapp.com/authenticate/login)
+## Built By [John Mwangi]
+
+## Check out!
+ * https://pittchy.herokuapp.com/authenticate/login
 
 ## Description
 Pitch is an application that allows users to use that one minute. The users will submit their one minute pitches and other users will vote on them and leave comments to give their feedback on them.
@@ -38,7 +41,7 @@ As a user I would like to:
 ### Cloning
 * In your terminal:
 
-        * git clone (https://pittchy.herokuapp.com/authenticate/login)
+        * git clone https://pittchy.herokuapp.com/authenticate/login
         * cd peech
 
 ## Running the Application
